@@ -1,0 +1,61 @@
+/*
+* Main Elements
+*/
+
+
+body {
+    background-color: #fff;
+}
+#logo {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+header {
+    text-align: center;
+}
+header img {
+    max-width: 100%;
+}
+.cat {
+    float: left;
+    height: 150px;
+    text-align: center;
+    width: 50%;
+}
+.cat img {
+    height: 140px;
+    max-width: 100%;
+}
+.item {
+    float: left;
+    height: 200px;
+    padding: 0.5%;
+    position: relative;
+    text-align: center;
+    width: 32%;
+}
+.item img {
+    display: inline;
+    margin: auto;
+    max-height: 150px;
+    max-width: 100%;
+}
+.text {
+    background: none repeat scroll 0 0 #ccc;
+    opacity: 0;
+}
+.item:hover .text {
+    display: block;
+    height: 40%;
+    margin-top: -160px;
+    opacity: 1;
+    padding: 40px 20px;
+    position: relative;
+}
+
+
+/*
+* Foot
+*/
